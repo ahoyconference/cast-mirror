@@ -1,0 +1,19 @@
+{
+  "name": "ahoy-ui",
+  "description": "Chromecast WebRTC mirror",
+  "version": "0.0.0",
+  "homepage": "https://github.com/ahoyconference/cast-mirror",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "angular": "1.2.26",
+    "angular-loader": "1.2.26",
+    "angular-mocks": "1.2.26",
+    "html5-boilerplate": "~4.3.0",
+    "angular-ui-router": "0.2.10",
+    "angular-bootstrap": "0.11.0",
+    "bootstrap": "3.1.1",
+    "chosen": "https://github.com/harvesthq/chosen/releases/download/v1.1.0/chosen_v1.1.0.zip",
+    "angular-chosen-localytics": "1.0.6"
+  }
+}

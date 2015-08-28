@@ -1,0 +1,19 @@
+
+
+
+    <div class="col-md-4 col-md-offset-4">
+	<div class="panel panel-default">
+	    <div class="panel-heading">
+	        <h3 class="panel-title">Chromecast mirror</h3>
+	    </div>
+	<div class="panel-body">
+		<select style="width: 100%;" chosen disable-search="true" data-placeholder="Select a device to call..." ng-model="destination" ng-options="device.id as device.name for device in devices">
+	    	    <option value=""></option>
+		</select>
+		<div class="col-md-8 col-md-offset-2 text-center" style="margin-top: 10px;">
+		    <button class="btn-success" ng-disabled="isCallDisabled()" ng-click="call()">Call</button>
+		    <button class="btn-danger" ng-disabled="isHangupDisabled()" ng-click="hangup()">Hangup</button>
+		</div>
+	</div>
+    </div>
+
